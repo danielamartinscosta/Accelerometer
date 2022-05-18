@@ -1,0 +1,7 @@
+{
+  "name": "Accelerometer",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

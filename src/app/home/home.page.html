@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Acelerometro
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-button expand="full" (click)="ligarAcelerometro()">Ligar</ion-button>
+  <ion-item>
+    <ion-label>Eixo X: {{ eixoX }} </ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label>Eixo Y: {{ eixoY }} </ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label>Eixo Z: {{ eixoZ }} </ion-label>
+  </ion-item>
+</ion-content>
